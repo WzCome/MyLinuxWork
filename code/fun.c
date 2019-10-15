@@ -19,3 +19,10 @@ smax=a[i];
 return smax;
 }
 
+int sum(int *a){
+	int i,sum=0;
+	for(i=0;i<MAX;i++){
+		sum=sum+a[i];
+	}
+return sum;
+}
